@@ -16,18 +16,18 @@ import br.org.soudex.Conversor;
 
 public class Teste {
 
-//	public static void main(String[] args) {
-//		String soundex = new Conversor("Giulliano").soundex();
-//		System.out.println(soundex);
-//	}
-	
 	public static void main(String[] args) throws IOException {
 		//testePalavrasBrasileiras("lista_palavras.txt");
-		testePalavrasBrasileiras("marcas.txt");
+		//converterPalavra("Giulliano Morroni");
+		//testePalavrasBrasileiras("marcas.txt");
 	}
 
-	private static void testePalavrasBrasileiras(String nomeArquivo)
-			throws FileNotFoundException, IOException {
+	public static void converterPalavra(String palavra) {
+		String soundex = new Conversor(palavra).soundex();
+		System.out.println(soundex);
+	}
+
+	public static void testePalavrasBrasileiras(String nomeArquivo) throws FileNotFoundException, IOException {
 		Map<String, List<String>> base = new HashMap<String, List<String>>();
 
 		File arquivo = new File("/opt/development/workspace/java/Soundex/lista/",nomeArquivo);
