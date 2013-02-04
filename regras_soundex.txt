@@ -1,0 +1,29 @@
+On October 25, 1917, Robert Russell filed his patent application for the Soundex system, a phonetic algorithm for indexing names by the way they sound (Smith, Smyth and Smithe) instead of the way they are spelled. Thus Soundex can help find a surname in census documents and surname databases, even though it may have been recorded under various spellings.
+Rules for Soundex
+
+Every Soundex code consists of a letter (always the first letter of the surname) and three numbers. These numbers are based on specific letter sounds found in the surname and can be determined by using the following chart:
+1. B, P, F, V 
+2. C, S, K, G, J, Q, X, Z 
+3. D, T 
+4. L 
+5. M, N 
+6. R
+
+To apply the Soundex rules to your surname, follow the following steps:
+Begin by writing out your surname. The first letter of the surname will be used to begin your Soundex code.
+Next, cross out all vowels (A, E, I, O, U, Y), and the letters H and W, that follow the initial letter. These letters are disregarded for Soundex purposes.
+
+Using the above table, assign numbers to the next three letters remaining in the surname. Disregard any remaining letters in the surname. If your name has less than three letters left, assign zeroes to those places. Your final Soundex code should be the first letter of the surname followed by three numbers (i.e. Smith is coded as S530).
+Further Rules & Refinements
+
+Two or more consonants with the same Soundex code number that appear in sequence are assigned a single number (much like the double letter rule above). The C and K in JACKSON, for example, are both coded with the number 2, so you would only assign the pair a single 2, not 22. This rule also applies to instances of double letters, such as the LL in PHILLIPS. It also holds true when it applies to the first two letters in the surname, even though the first letter isn't technically coded. Thus, the surname SUTTON would be coded as S350, not S335.
+If two consonants with the same Soundex code are separated by a vowel, however, they are both coded - even though the vowel itself is disregarded.
+When H or W separate two consonants with the same soundex code, the consonant to the right of the vowel is not coded. Thus, the S and C in ASHCRAFT would be considered adjacent letters and coded only once - making its Soundex code A261.
+Things to Watch For
+
+If the surname has a prefix such as De, Van or Von, code it both with and without the prefix. You may find it either way in the Soundex.
+For a period of time, especially between for the 1880, 1900 and 1910 census, Soundex coders sometimes erroneously treated H and W as separators, like the vowels, and assigned a code to both the S and C. This would make the code for ASHCRAFT A226, instead of A261. Basically, any surname with the letter H or W as a separator between adjacent letters having the same code should be coded both ways.
+
+People with a surname of more than one word, or whose surname is commonly presented before their given name, such as Native Americans and Chinese, may be difficult to locate in a Soundex index. Names may have been indexed and coded under the name which appears last, even though it might not be the actual surname. In the case of multi-word surnames, only one of the words may have been coded. Be sure to check for your surname under several different variations.
+
+Some members of religious orders may be indexed with the name "Sister" or "Brother" considered as their surname for indexing purposes. These would correspond to Soundex codes S236 and B636, respectively.
